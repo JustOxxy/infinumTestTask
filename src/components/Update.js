@@ -44,9 +44,9 @@ class Update extends Component {
     );
     const getInvoice = await res.json();
     this.setState({
-      date_created: getInvoice.dateCreated,
+      dateCreated: getInvoice.date_created,
       number: getInvoice.number,
-      date_supply: getInvoice.dateSupply,
+      dateSupply: getInvoice.date_supply,
       comment: getInvoice.comment
     });
   }

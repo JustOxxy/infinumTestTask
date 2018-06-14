@@ -46,7 +46,7 @@ class Create extends Component {
       body: JSON.stringify({
         date_created: this.state.dateCreated.format("D MMMM YYYY"),
         number: this.state.number,
-        dat_supply: this.state.dateSupply.format("D MMMM YYYY"),
+        date_supply: this.state.dateSupply.format("D MMMM YYYY"),
         comment: this.state.comment,
         id: uuidv4()
       })
